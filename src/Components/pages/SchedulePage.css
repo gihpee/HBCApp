@@ -1,0 +1,44 @@
+/* SchedulePage.css */
+.schedule-page {
+  padding: 20px 16px;
+  width: -webkit-fill-available;
+  background: #fff;
+}
+
+.page-title {
+  font-size: 50px;
+  font-family: 'Inter';
+  font-weight: 900;
+  color: black;
+}
+
+.time-block {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  vertical-align: middle;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.time-block p {
+  font-size: 20px;
+  font-family: 'Inter';
+  font-weight: 700;
+  white-space: nowrap;
+  color: #000;
+}
+
+.time-line {
+  height: 2px;
+  vertical-align: middle;
+  margin: auto;
+  width: 100%;
+  background: rgba(83, 131, 229, 1);
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

@@ -1,0 +1,114 @@
+/* ScheduleCard.css */
+.schedule-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.schedule-card {
+  border: 2px solid rgba(83, 131, 229, 0.5);
+  border-radius: 16px;
+  padding: 16px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.speaker-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.speaker-image {
+  width: 60px;
+  height: 60px;
+  align-self: flex-start;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.speaker-name {
+  font-weight: 1000;
+  font-family: 'Inter';
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgba(10, 14, 38, 1);
+}
+
+.speaker-position {
+  font-size: 14px;
+  color: rgba(83, 131, 229, 1);
+}
+
+.favorite-icon {
+  width: 24px;
+  height: 24px;
+  stroke: rgba(83, 131, 229, 1);
+  color: rgba(83, 131, 229, 1);
+  fill: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.talk-title {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Inter';
+  color: #000;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.tag-location {
+  padding: 8px 14px;
+  border-radius: 24px;
+  padding-left: 32px;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(83, 131, 229, 1);
+  background-image: url("../assets/location.svg");
+  background-repeat: no-repeat;
+  background-position: 12px center;
+}
+
+.tag-time {
+  padding: 8px 14px;
+  border-radius: 24px;
+  padding-left: 32px;
+  font-size: 14px;
+  color: rgba(83, 131, 229, 1);
+  border: 1.5px solid rgba(83, 131, 229, 1);
+  background: #fff;
+  background-image: url("../assets/time.svg");
+  background-repeat: no-repeat;
+  background-position: 12px center;
+}
+
+.tag {
+  background-color: #e9efff;
+  color: #1c3369;
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+}
