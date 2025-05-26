@@ -1,0 +1,68 @@
+.favorites-page {
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 24px 0; /* убираем боковые отступы */
+    font-family: 'Inter', sans-serif;
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    padding-left: 16px;
+}
+
+.favorites-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    padding-left: 16px;
+}
+
+.favorites-desc {
+    color: #667085;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding-left: 16px;
+    max-width: 700px;
+}
+
+.favorites-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+}
+
+.favorites-tab-btn {
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #f4f4f4;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.favorites-tab-btn.active {
+    background: #222;
+    color: #fff;
+}
+
+.favorites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px; /* чтобы карточки не прилипали к краям экрана */
+}
+
+/* Если надо, чтобы карточки тоже занимали всю ширину, добавь: */
+.schedule-card-link,
+.schedule-card {
+    width: 100%;
+    max-width: 100%;
+}
